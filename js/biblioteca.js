@@ -11,8 +11,6 @@ function check_login(){
         }
     });
 };
-<<<<<<< HEAD
-=======
 
 var connectionStatus = false;
 
@@ -24,4 +22,4 @@ $(document).on('pagebeforeshow', '#index', function () {
         alert(connectionStatus);
     });
 });
->>>>>>> verificar conexao com internet
+
