@@ -1,0 +1,23 @@
+<html>
+</head>
+    <title>Log In</title>
+    <link rel='stylesheet' type='text/css' href='css/login.css' />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type='text/javascript' src='js/biblioteca.js'></script>
+</head>
+</body>
+<div id='login'>
+    <form onsubmit='check_login();return false;'>
+        <label>usuário *</label>
+        <input type='text' name='username' id='username' />
+ 
+        <label>senha *</label>
+        <input type='password' name='password' id='password' />
+ 
+        <label class='error' id='error' style='display: none; font-size: 12px;'></label>
+ 
+        <input type='submit' class='submit' value='Log In'>
+    </form>
+</div>
+</body>
+</html>
